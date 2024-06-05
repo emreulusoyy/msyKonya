@@ -1,0 +1,349 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title> Msy Medya Ajansı </title>
+    <meta name="description" content="Reklam ajansı">
+    <meta name="keywords" content="Msy Media , media , medya , medya şirketi, konya, konya medya, konya reklam ajansı, ajans">
+    <link rel="canonical" href="#">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google fonts -->
+    <link href="//fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="~/createpro-starter/assets/css/style-starter.css">
+
+   
+    <link rel="icon" type="image/png" sizes="32x32" href="~/createpro-starter/favicon-32x32.png">
+
+
+
+    <style>
+    .navbar-nav .nav-link {
+    font-size: 8px; /* Metin boyutunu istediğiniz boyuta ayarlayabilirsiniz */
+}
+
+.dropdown-menu .dropdown-item {
+    font-size: 8px; /* Açılır menüdeki öğelerin metin boyutunu istediğiniz boyuta ayarlayabilirsiniz */
+
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: row; /* Öğelerin yan yana düzenlenmesi */
+    align-items: center; /* Öğelerin dikeyde hizalanması */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px; /* Öğeler arası boşluk */
+}
+
+.dropdown-menu {
+    min-width: auto; /* Açılır menünün otomatik genişlik ayarı */
+}
+
+.dropdown-menu .dropdown-item {
+    width: auto; /* Dropdown öğelerin otomatik genişlik ayarı */
+}
+
+</style>
+</head>
+
+<body>
+    <div class="header-saas">
+        <!-- Kopfzeile -->
+        <header id="site-header" class="fixed-top">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg stroke">
+    <div class="container"> <!-- Container eklendi -->
+        <a class="navbar-brand" href="/HomePage/deIndex">
+            <img src="~/createpro-starter/lgo.png" style="max-height: 115px; max-width:200px;" />
+        </a>
+        <!-- Logo als Bild -->
+        <!-- <a class="navbar-brand" href="#index.html">
+            <img src="image-path" alt="Ihr Logo" title="Ihr Logo" style="height:35px;" />
+        </a> -->
+        <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+            data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+            aria-label="Navigation umschalten">
+            <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+            <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="/HomePage/deIndex" role="button">
+                        Startseite
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Service/deIndex">Unsere Dienstleistungen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Reference/deIndex">Unsere Referenzen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Contact/deIndex">Kontakt</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="~/assets/images/gr.png" alt="Deutsch" width="30" height="30">
+                        <img src="~/assets/images/eng.png" alt="English" width="30" height="30">
+                        <img src="~/assets/images/tr.png" alt="Turkish" width="30" height="30">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/Homepage/DeIndex/">Deutsch</a>
+                        <a class="dropdown-item" href="/Homepage/EnIndex/">English</a>
+                        <a class="dropdown-item" href="/Homepage/Index/">Turkish</a>
+                    </div>
+                </li>
+                <li class="mx-3">
+                    <a href="/Contact/deIndex" class="btn btn-style btn-primary">Angebotsanfrage</a>
+                </li>
+            </ul>
+        </div>
+    </div> <!-- Container kapandı -->
+
+    <div class="mobile-position">
+        <nav class="navigation">
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox"></label>
+                    <input type="checkbox" id="checkbox">
+                    <div class="mode-container">
+                        <i class="gg-sun"></i>
+                        <i class="gg-moon"></i>
+                    </div>
+         </div>
+         </nav>
+         </div>
+         </nav>
+         
+
+            </div>
+        </header>
+        <!-- //Kopfzeile -->
+    </div>
+    <div class="innerblock"></div>
+
+    @RenderBody()
+
+    <section class="footer-17">
+        <div class="footer17_sur py-5">
+            <div class="container py-lg-5 py-md-4">
+                <div class="footer17-top">
+                    <div class="footer17-top-left1_sur">
+                        <h6>Kontaktieren Sie uns</h6>
+                        <ul>
+                            <li><a href="mailto:info@msymediagroup.com  ">info@msymediagroup.com  </a></li>
+                            <li><a href="whatsapp:/send?phone=905395466042">05395466042</a></li>
+                            <li><a href="https://api.whatsapp.com/send?phone=905387425860"
+                                    onclick="redirectToWhatsApp('905387425860'); return false;">05387425860</a></li>
+                        </ul>
+                        <ul class="footers-17_social">
+                            <li><a href="https://www.linkedin.com/in/msy-media-group-b96348300/" class="linkedin"><span
+                                        class="fa fa-linkedin"></span></a></li>
+                            <li><a href="https://www.instagram.com/msymediagroup/" class="instagram"><span
+                                        class="fa fa-instagram"></span></a></li
+                                                                </ul>
+                    </div>
+                    <div class="footer17-top-left2_sur">
+                        <h6>Produkte</h6>
+                        <ul>
+                            <li><a href="/Service/deIndex">Funktionen</a></li>
+                            <li><a href="/Service/deIndex">Preispläne</a></li>
+                            <li><a href="/Service/deIndex">Neuigkeiten</a></li>
+                            <li><a href="/Contact/deIndex">Hilfe</a></li>
+                            <li><a href="/Contact/deIndex">Unterstützung</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer17-top-left3_sur">
+                        <h6>Unternehmen</h6>
+                        <ul>
+                            <li><a href="/Reference/deIndex">Über uns</a></li>
+                            <li><a href="/Contact/deIndex">Kontaktieren Sie uns</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer17-top-left4_sur">
+                        <h6>Dienstleistungen</h6>
+                        <ul>
+                            <li><a href="/Service/deIndex">Digitales Marketing</a></li>
+                            <li><a href="/Service/deIndex">SEO für Unternehmen</a></li>
+                            <li><a href="/Service/deIndex">Content-Erstellung</a></li>
+                            <li><a href="/Service/deIndex">UI-Design</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Zum Seitenanfang -->
+        <button onclick="topFunction()" id="movetop" title="Zum Seitenanfang">
+            &#10548;
+        </button>
+    </section>
+
+    <script src="~/createpro-starter/assets/js/jquery-3.3.1.min.js"></script>
+
+    <script src="~/createpro-starter/assets/js/theme-change.js"></script><!-- theme switch js (light and dark)-->
+    <!-- pricing tabs js -->
+    <script src="~/createpro-starter/assets/js/tabs.js"></script>
+
+    <!-- owlcarousel -->
+    <script src="~/createpro-starter/assets/js/owl.carousel.js"></script>
+
+    <!-- script for testimonials carousel slider -->
+    <script>
+        $(document).ready(function () {
+            $("#owl-demo1").owlCarousel({
+                loop: true,
+                nav: false,
+                margin: 50,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    736: {
+                        items: 2,
+                        nav: false
+                    }
+                }
+            })
+        })
+    </script>
+    <!-- //script for testimonials carousel slider -->
+    <!-- script for agency testimonials carousel slider -->
+    <script>
+        $(document).ready(function () {
+            $("#owl-agency").owlCarousel({
+                loop: true,
+                nav: false,
+                margin: 50,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    736: {
+                        items: 1,
+                        nav: false
+                    }
+                }
+            })
+        })
+    </script>
+    <!-- //script for agency testimonials carousel slider -->
+    <!-- magnific popup -->
+    <script src="~/createpro-starter/assets/js/jquery.magnific-popup.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+
+            $('.popup-with-move-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-slide-bottom'
+            });
+        });
+    </script>
+    <!-- //magnific popup -->
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+    <!-- disable body scroll which navbar is in active -->
+    <!--/MENU-JS-->
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function () {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function () {
+                if ($(window
+                    .width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+    </script>
+    <script src="~/createpro-starter/assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        var config = {
+            phone: "0905511514372",
+            call: "How can I help you?",
+            position: "ww-left",
+            size: "ww-normal",
+            text: "Hello, I'm interested in your services. You can contact us through our contact numbers.",
+            type: "ww-standard",
+            brand: "",
+            subtitle: "",
+            welcome: ""
+        };
+        var proto = document.location.protocol, host = "cloudfront.net", url = proto + "//d3kzab8jj16n2f." + host;
+        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = url + "/v2/main.js";
+
+        s.onload = function () { tmWidgetInit(config) };
+        var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x);
+    </script>
+    <script>
+        function redirectToWhatsApp(phoneNumber) {
+            window.location.href = 'https://wa.me/' + phoneNumber;
+        }
+    </script>
+</body>
+
+</html>
